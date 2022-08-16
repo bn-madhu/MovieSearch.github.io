@@ -1,0 +1,211 @@
+/*  sir madirodhu */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* box-sizing: border-box; */
+}
+.navbar{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* margin-top: 20px; */
+}
+.navbar .logo{
+    margin-bottom: 5px;
+}
+.nav_links ul{
+    list-style: none;
+}
+.nav_links ul li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+.nav_links a{
+    text-decoration: none;
+    color: black;
+}
+.nav_links{
+    margin: 0px 60px 0px 0px;
+
+}
+.buttons #btn1{
+    border-radius: 20px;
+    border: none;
+    padding: 8px 14px;
+    background-color: black;
+    color: white;
+}
+.buttons #btn2{
+    border-radius: 20px;
+    border: none;
+    padding: 8px 14px;
+    background-color: #ffc627;
+    color: black;
+}
+
+
+.banner{
+    text-align: center;
+    background-color: #ffc627;
+    padding: 20px 0px;
+}
+
+
+.quality_support{
+    display: flex;
+    background-color: #1f3933;
+    justify-content: space-evenly;
+    padding: 50px 0px 0px 0px;
+}
+.quality_support .content{
+    color: white;
+    margin-top: 150px;
+}
+.content h1{
+    font-size: 48px;
+}
+.content p{
+    font-size: 18px;
+    margin-top: 8px;
+}
+.image img{
+    height: 100%;
+}
+
+
+.box_section{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 400px 400px 400px;
+    width: 100%;
+    height:fit-content;
+    justify-content: center;
+}
+.box{
+    background-color: #1f3933;
+    margin: 30px;
+    height: 300px;
+    color: white;
+    text-align: center;
+    display:grid;
+    align-items:center;
+    transition: .8s;
+}
+
+.box:hover{
+    background-color: white;
+    color: #1f3933;
+    border: 1px solid #1f3933;
+    transition: all;
+}
+/*2nd nav bar*/
+#nav_Sticky_2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+    position: sticky;
+    top:0%;
+    background-color: white;
+    opacity: 20%;
+}
+#nav_Sticky_2 p{
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.supportText{
+    padding: 0px 300px;
+    text-align:center;
+}
+.supportText h1{
+    margin-top: 100px;
+    text-align:center;
+    padding-bottom:30px;
+    font-size: xx-large;
+}
+.supportText span{
+    text-align:center;
+}
+
+
+#hrTag{
+    width: 10%;
+    height: 5px;
+    background-color: #1f3933;
+    position: relative;
+    left: 45%;
+    margin-top: 50px;
+}
+
+/*form section*/
+.formMain{
+    display: flex;
+    width: 71.5rem;
+    background-color: whitesmoke;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,0%);
+    padding-top:30px;
+    box-sizing: border-box;
+}
+
+.formSection #headerDiv1{
+    padding-top: 50px;
+    font-size: larger;
+}
+.formSection #headerDiv1 p{
+    color: rgb(211, 207, 207);
+    padding-bottom: 30px;
+}
+.formSection #nameDiv2{
+    display: flex;
+    
+}
+.formSection #nameDiv2 div{
+    padding-right:30px;
+}
+.formSection #nameDiv2 div input{
+    width: 230px;
+    border: solid 0.1px rgb(170, 170, 211);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.formSection input{
+    border: solid 0.1px rgb(170, 170, 211);
+    border-radius: 5px;
+    padding: 5px;
+}
+label{
+    display: inline-block;
+    margin: 10px 0px;
+}
+#span_input div{
+    margin-top: 20px;
+    padding-right: 20px;
+}
+#span_input div input{
+    padding: 10px 50px;
+    color: white; 
+    background-color: #1f3933;
+    
+}
+#span_input #input_submit{
+    text-align: center;
+}
+
+
+#fixed_left_content span{
+    position: fixed;
+    top:50%;
+    right: 96%;
+    background-color: #ffc627;
+    transform: rotate(270deg);
+    padding: 20px 3px;
+}
+
+

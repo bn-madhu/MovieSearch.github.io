@@ -1,0 +1,60 @@
+.movieOfKannada{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.namesOfMovies{
+    
+    width: 50%;
+    position: relative;
+    margin-left: 13.5%;
+    
+}
+
+.namesOfMovies:hover{
+    transform:scale(2px);
+    transition: .9s;
+    box-shadow: -5px -5px 5px grey, 5px 5px 5px grey, 0px -5px 5px grey ;
+    border: 3px solid grey;
+    text-indent: 100px;
+}
+.movieOfKannada .description{
+    display: flex;
+    /* width: 100vw;
+    height: 250px; */
+}
+.movieOfKannada .description img{
+    width:600px;
+    height: 550px;
+}
+
+.imagesOfMovies img{
+    width: 250px;
+    height: 500px;
+    margin: 0px 10px;
+    transition: transform .5s;
+    margin: 50px 0px;
+  }
+  .imagesOfMovies{
+    /* display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 300px;
+    row-gap: 50px; */
+    text-align: center;
+    margin: 15px;
+  }
+  .imagesOfMovies img:hover{
+    transform: scale(1.1);
+  }
+
+
+  .namesOfMovies img{
+    width: 40px;
+    height:40px      
+  }
+
+.imagesOfMovies img{
+    margin: 10px;
+}

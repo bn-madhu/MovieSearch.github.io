@@ -1,0 +1,75 @@
+{
+  "series": [
+    {
+      "Name": "Dassa",
+      "actor": "Darshan",
+      "genre": "Masss action",
+      "yearOfRelease": 2003,
+      "language": "Kannada",
+      "id": 1
+    },
+    {
+      "Name": "Mr.Airavata",
+      "actor": "Darshan",
+      "genre": "police action",
+      "yearOfRelease": 2015,
+      "language": "Kannada",
+      "id": 2
+    },
+    {
+      "Name": "Pailwaan",
+      "actor": "Sudeep",
+      "genre": "game",
+      "yearOfRelease": 2020,
+      "language": "Hindi",
+      "id": 3
+    },
+    {
+      "Name": "Gaalipata",
+      "actor": "Ganesh",
+      "genre": "Friends",
+      "yearOfRelease": 2008,
+      "language": "telegu",
+      "id": 4
+    },
+    {
+      "Name": "Mr 420",
+      "actor": "Ganesh",
+      "genre": "420",
+      "yearOfRelease": 2013,
+      "language": "tamil",
+      "id": 5
+    },
+    [
+      "KingsMan",
+      "tony",
+      "Action",
+      "2019",
+      "English"
+    ],
+    {
+      "Name": "goldsman",
+      "actor": "jamesBond",
+      "genre": "action",
+      "yearOfRelease": "1990",
+      "language": "english",
+      "id": 7
+    },
+    {
+      "Name": "GandhadhaGudi",
+      "actor": "Dr. RajKumar",
+      "genre": "Adventure",
+      "yearOfRelease": "1994",
+      "language": "Kannada",
+      "id": 8
+    },
+    {
+      "Name": "KGF-2",
+      "actor": "yash",
+      "genre": "Action,Classy",
+      "yearOfRelease": "2022",
+      "language": "Kannada",
+      "id": 9
+    }
+  ]
+}
